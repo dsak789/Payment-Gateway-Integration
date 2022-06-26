@@ -1,3 +1,6 @@
+body {
+    background-repeat: no-repeat;
+ }
 #div1{
     background-color:rgba(117, 109, 109, 0.521);
     font-size: large;
