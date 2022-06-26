@@ -1,0 +1,66 @@
+#body{
+    
+}
+#div1{
+    background-color:rgba(117, 109, 109, 0.521);
+    font-size: large;
+}
+#div2{
+    background-color:rgba(68, 63, 63, 0.534);
+    align-items: left;
+}
+#btn1{
+    color: black;
+    background-color:rgb(42, 121, 114);
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+#btn2{
+    
+    color: black;
+    background-color: rgb(42, 121, 114);
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#btn3{
+    color: black;
+    background-color:aquamarine;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#d{
+    padding-top: 30px;
+}
+#logo-name{
+    font-size: 30;
+    color: silver;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    padding-top: 30px;
+}
+#logo{
+    align-items:center;
+    height: 50;
+    width: 50;
+}
+#btab{
+    border: 0ch;
+}
+#wt{
+    text-align: center;
+    font-size:xx-large;
+    color:lightblue;
+    font-family:cursive;
+}
+#sbf{
+    text-align: center;
+    font-size:55px;
+    color: rgb(161, 181, 199);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#lal{
+    font-size:40px;
+    text-align: center;
+    color: aliceblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
