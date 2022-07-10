@@ -1,5 +1,7 @@
 #body{
-    background-repeat: inherit;
+    background-image: url('BGpic.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
     background-position: center;
  }
 #div1{
@@ -12,40 +14,69 @@
 }
 #btn1{
     color: black;
-    background-color:rgb(42, 121, 114);
+    background-color:rgb(96, 110, 109);
     font-size: large;
+    border-radius: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
+ #btn1:hover{
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgba(13, 13, 13, 0.52);
+    background-color: rgb(99, 95, 93);
+    min-width: 10%;
+    min-height: 5%;
+    transform:rotate(360deg);
+    transition-duration: 1s;
+
+ }
 #btn2{
-    
     color: black;
-    background-color: rgb(42, 121, 114);
-    font-size: large;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-#btn3{
-    color: black;
-    background-color:aquamarine;
+    background-color:rgb(35, 62, 67);
     font-size: 30px;
+    border-radius: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+#btn2:hover{
+    border-radius: px;
+    cursor: pointer;
+    color: rgb(6, 6, 6);
+    background-color: rgb(85, 90, 93);
+    min-width: 12%;
+    min-height: 7%;
+    transition-duration: 0.5s;
+ }
 #d{
     padding-top: 30px;
 }
 #logo-name{
+    cursor: pointer;
     font-size: 30;
     color: silver;
     font-family: 'Courier New', Courier, monospace;
     align-items: center;
     padding-top: 30px;
 }
+#logo-name:hover{
+    cursor: pointer;
+     font-size: 30;
+    color: rgb(30, 29, 29);
+    font-family:'Courier New', Courier, monospace;
+    align-items: center;
+    padding-top: 30px;
+    font-style:italic;
+}
 #logo{
     align-items:center;
     height: 50;
     width: 50;
 }
-#btab{
-    border: 0ch;
+#logo:hover{
+    cursor:pointer;
+    align-items:center;
+    height: 70;
+    width: 70;
+    transition-duration: 1.5s;
 }
 #wt{
     text-align: center;
@@ -53,15 +84,38 @@
     color:lightblue;
     font-family:cursive;
 }
-#sbf{
+#wt:hover{
+    cursor: pointer;
+    text-align: center;
+    font-size:xx-large;
+    background-color: rgb(77, 79, 81);
+    color:rgb(26, 35, 38);
+    font-family:cursive;
+    transition-duration: 00.5s;
+}
+#sbf {
     text-align: center;
     font-size:55px;
     color: rgb(161, 181, 199);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+#sbf:hover{
+    cursor: pointer;
+     text-align: center;
+    font-size:55px;
+    background-color: rgba(56, 52, 52, 0.532);
+    color: rgb(0, 0, 0);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition-duration: 00.5s;
+}
 #lal{
+    padding-top: 10px;
     font-size:40px;
     text-align: center;
     color: aliceblue;
     font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#lal:hover{
+    cursor: pointer;
+    color: darkslategray;
 }
